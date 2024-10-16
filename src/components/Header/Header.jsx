@@ -12,8 +12,8 @@ export default function Header({ filters, filter, onFilterChange }) {
         onClick={toggleDarkMode}
         className={styles.toggle}
       >
-        {!darkMode && <HiMoon />}
-        {darkMode && <HiSun />}
+        {darkMode && <HiMoon />}
+        {!darkMode && <HiSun />}
       </button>
       <ul className={styles.filters}>
         {filters.map((value, index) => (
